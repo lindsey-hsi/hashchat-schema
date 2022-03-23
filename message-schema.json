@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A message in a messaging application.",
+  "type": "object",
+  "required": ["messageID", "timestamp", "sender", "recipient"],
+  "properties": {
+    "messageID": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "The unique identifier of the message."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date",
+      "maxLength": 10,
+      "description": "The date the message was sent."
+    },
+    "sender": {
+      "$ref": "user-schema.json"
+    },
+    "recipient": {
+      "$ref": "user-schema.json"
+    },
+    "content": {
+      "type": "string",
+      "description": "The content of the message.",
+      "maxLength": 500
+    },
+    "recipientGroup": {
+      "$ref": "user-group-schema.json"
+    }
+  }
+}

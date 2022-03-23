@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A user in a messaging application.",
+  "type": "object",
+  "required": ["userID"],
+  "properties": {
+    "userID": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "The unique identifier of the user."
+    },
+    "recipientGroupIDs": {
+      "type": "array",
+      "description": "The groupIDs of any groups the user is a member of, if any."
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

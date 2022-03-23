@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "A user group in a messaging application.",
+  "type": "object",
+  "required": ["groupID", "userIDs"],
+  "properties": {
+    "groupID": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "The unique identifier of the user group."
+    },
+    "userIDs": {
+      "type": "array",
+      "description": "The unique identifiers of the users in a given group.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3
+    }
+  }
+}
