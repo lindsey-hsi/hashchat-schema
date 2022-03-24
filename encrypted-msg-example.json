@@ -1,0 +1,80 @@
+{
+    "streamId": "k2t6wyfsu4pg1h64nnbvr96mtmpkin3zqno02b95lsn9h2s4bsj0ik35as0rlz",
+    "state": {
+        "type": 0,
+        "content": {
+            "accessControlConditions": [
+                {
+                    "chain": "polygon",
+                    "method": "",
+                    "parameters": [
+                        ":userAddress"
+                    ],
+                    "contractAddress": "",
+                    "returnValueTest": {
+                        "value": "0xbeb5a64793ec486b080063d3b662f2131fac0f52",
+                        "comparator": "="
+                    },
+                    "standardContractType": ""
+                },
+                {
+                    "operator": "or"
+                },
+                {
+                    "chain": "polygon",
+                    "method": "",
+                    "parameters": [
+                        ":userAddress"
+                    ],
+                    "contractAddress": "",
+                    "returnValueTest": {
+                        "value": "0x072e83cdE5c102fDCF32BE328034E1bB2DADCB01",
+                        "comparator": "="
+                    },
+                    "standardContractType": ""
+                }
+            ],
+            "encryptedSymmetricKey": "CReJrFixjNYCwZJYg2GuqlFeqF4OvA5c9uYDxbnEAoW5577IEAhkZwfWaSEbC5gRvZcRMpXKQDPH+OoDUcEUPv4wxwRPPHSHpuh4PdVKqpCM03084vpXMcnF3axqW82q/SM5htSqpVzApnXr/lOEMtNkVNZm9hqNhKFfvHX2ez8AAAAAAAAAIOIdQuWQCTOmOIYzxzOBm/Z5OZMRXiXPvipeh6PKGdH3dwOx3GXFwUMFi1bBNNllhA==",
+            "encryptedStreamId": {
+                "iv": "dr7Kz9jNPDYUom89PnQhgW-g1N2lw_YR",
+                "tag": "2orsNtSfM84SvxpJZcEhew",
+                "protected": "eyJhbGciOiJkaXIiLCJlbmMiOiJYQzIwUCJ9",
+                "ciphertext": "OMXK-CptZzgBimfRyYc91O5ZzeSVlyuLeVgrKMnRroRU0Ha8gVhRqAixs0c2DK_0zkpjwelTGYbHV7hBwSWXCmDEAwCBQ1OCwuL2coCTKSRLS_g8Encb7xenRfNrupd7"
+            }
+        },
+        "metadata": {
+            "tags": [
+                "hashchat:lit:bciqhknswbknfghryloq42zwlhqsusb2e7c237ifpicmu6dnlcmzhbbq"
+            ],
+            "family": "hashchat:lit",
+            "controllers": [
+                "did:3:bafyreicinidhfsmz47lyr7u5kplyzvdaczm54jxistzy5xg5fkfuw7drqq"
+            ]
+        },
+        "signature": 2,
+        "anchorStatus": "ANCHORED",
+        "log": [
+            {
+                "cid": "bafyreigafqwnx5mvumjtujjxtkwkzu6s6g636iu5rlphssvp7ofxrcu7y4",
+                "type": 0
+            },
+            {
+                "cid": "bagcqceratgaat24uv3w6j7xvj3tpqx3qrefm7gwpzyv3x3gd6kp7ueym6tna",
+                "type": 1
+            },
+            {
+                "cid": "bafyreieydvwu4ecrvm5t7sep4blw5un5xgjyqbjtsi3nh3ptrnyp25wjom",
+                "type": 2,
+                "timestamp": 1648105009
+            }
+        ],
+        "anchorProof": {
+            "root": "bafyreihglx5jn72lljfdgta27sn6zyjys22jjvoqu5wwrwzxoxgaicjq4e",
+            "txHash": "bagjqcgzaqcsgpyvlhiesbh5zzerwygtn27a3ejqvhzjleksrkno6acsmubhq",
+            "chainId": "eip155:3",
+            "blockNumber": 12129317,
+            "blockTimestamp": 1648105009
+        },
+        "doctype": "tile"
+    }
+}
