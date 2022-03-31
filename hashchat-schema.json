@@ -18,6 +18,12 @@
           "maxLength": 10,
           "description": "The date the message was sent."
         },
+        "time_read": {
+          "type": "string", 
+          "format": "date"
+          "maxLength": 10, 
+          "description": "The time the message was opened by the recipient."
+        },
         "senderID": {
           "type": "string",
           "maxLength": 100,
