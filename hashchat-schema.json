@@ -18,28 +18,13 @@
           "maxLength": 10,
           "description": "The date the message was sent."
         },
-        "senderID": {
-          "type": "string",
-          "maxLength": 100,
-          "description": "The unique identifier of the message sender."
-        },
-        "recipientID": {
-          "type": "string",
-          "maxLength": 100,
-          "description": "The unique identifier of the message recipient."
-        },
         "content": {
           "type": "string",
           "maxLength": 500,
           "description": "The content of the message."
-        },
-        "recipientGroupID": {
-          "type": "string",
-          "maxLength": 100,
-          "description": "The unique identifier of the message recipient group, if applicable."
         }
       },
-      "required": ["messageID", "timestamp", "senderID", "recipientID", "content"]
+      "required": ["messageID", "timestamp", "content"]
     }
   }
 }
